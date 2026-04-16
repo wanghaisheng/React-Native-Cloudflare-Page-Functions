@@ -10,6 +10,7 @@ import CharactersScreen from '../screens/characters/CharactersScreen';
 import AdventureScreen from '../screens/adventure/AdventureScreen';
 import SettingsScreen from '../screens/settings/SettingsScreen';
 import ParentControlScreen from '../screens/settings/ParentControlScreen';
+import GodotGameScreen from '../screens/settings/GodotGameScreen';
 
 import StoryCreateScreen from '../screens/story/StoryCreateScreen';
 import BookDetailScreen from '../screens/story/BookDetailScreen';
@@ -82,6 +83,7 @@ const SettingsStack = () => {
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="SettingsMain" component={SettingsScreen} />
       <Stack.Screen name="ParentControl" component={ParentControlScreen} />
+      <Stack.Screen name="GodotGame" component={GodotGameScreen} />
     </Stack.Navigator>
   );
 };

@@ -77,11 +77,22 @@ const SettingsScreen = ({ navigation }) => {
 
       <Card style={styles.section}>
         <Text style={styles.sectionTitle}>👨‍👩‍👧 家长控制</Text>
-        <TouchableOpacity 
+        <TouchableOpacity
           style={styles.settingItem}
           onPress={() => navigation.navigate('ParentControl')}
         >
           <Text style={styles.settingLabel}>⏰ 时间管理与阅读统计</Text>
+          <Text style={styles.settingArrow}>→</Text>
+        </TouchableOpacity>
+      </Card>
+
+      <Card style={styles.section}>
+        <Text style={styles.sectionTitle}>🎮 游戏</Text>
+        <TouchableOpacity
+          style={styles.settingItem}
+          onPress={() => navigation.navigate('GodotGame')}
+        >
+          <Text style={styles.settingLabel}>🎯 乐高冒险游戏</Text>
           <Text style={styles.settingArrow}>→</Text>
         </TouchableOpacity>
       </Card>

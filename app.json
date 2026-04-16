@@ -33,7 +33,19 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-secure-store"
+      "expo-secure-store",
+      "./app.plugin.cjs",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 29,
+            "extraMavenRepos": [
+              "../../node_modules/@borndotcom/react-native-godot/android/libs/libgodot-android/4.5.1.migeran.2"
+            ]
+          }
+        }
+      ]
     ],
     "extra": {
       "apiBaseUrl": "http://localhost:8788/api",

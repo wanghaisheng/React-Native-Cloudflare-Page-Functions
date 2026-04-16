@@ -1,0 +1,146 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.cer
+
+# Generated native folders
+/ios
+/android
+
+# Metro
+.metro-health-check*
+.metro-scacher*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.pem
+Icon
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Local env files
+.env*.local
+.env
+.env.production
+.env.development
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# Testing
+coverage/
+.nyc_output/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Godot specific
+# Godot editor cache
+.godot/
+.import/
+.export/
+# Godot project files
+*.godot
+*.import
+*.export
+*.tscn
+*.remap
+*.ctex
+*.tres
+*.pck
+# Godot C# compilation
+.mono/
+# Godot build cache
+.android/
+.build/
+# Godot temp files
+.tmp/
+# Godot shader cache
+*.cache
+
+# Plugin build
+/plugin/build
+/plugin/.godot
+/plugin/.import
+/plugin/.export
+/ios/main.pck
+
+# Android build cache
+/android/.gradle/
+/android/.idea/
+/android/app/build/
+/android/app/src/main/assets/.godot/
+
+# iOS build cache
+/ios/Pods/
+/ios/build/
+/ios/.DS_Store
+
+# Build artifacts
+build/
+out/
+*.aab
+*.apk
+*.app
+*.dmg
+*.exe
+*.ipa
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Lock files (keeping package-lock.json and pnpm-lock.yaml)
+# yarn.lock
+
+# Misc
+app-example
+*.orig
+*.bak
+*.backup
